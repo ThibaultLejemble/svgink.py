@@ -1,4 +1,4 @@
-import svg
+import svgink as svg
 
 
 STROKE_LEN = 10

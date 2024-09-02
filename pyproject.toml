@@ -3,15 +3,15 @@ requires = ["flit_core >=2,<4"]
 build-backend = "flit_core.buildapi"
 
 [tool.flit.metadata]
-module = "svg"
-dist-name = "svg.py"
+module = "svgink"
+dist-name = "svgink.py"
 license = "MIT"
-author = "Gram"
-author-email = "gram@orsinium.dev"
-home-page = "https://github.com/orsinium-labs/svg"
+author = ""
+author-email = ""
+home-page = "https://github.com/ThibaultLejemble/svgink"
 description-file = "README.md"
 requires-python = ">=3.7"
-keywords = "svg,drawing,vector"
+keywords = "svg,drawing,vector,Inkscape"
 requires = []
 
 classifiers=[

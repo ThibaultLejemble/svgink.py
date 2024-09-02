@@ -1,9 +1,12 @@
-# svg.py
+# svgink.py
 
-Python library to generate SVG files.
+Python library to generate SVG files **with Inkscape layers**.
+
+This library is a small extension of [svg.py](https://github.com/orsinium-labs/svg.py).
 
 Features:
 
++ **Inkscape layers**
 + Compatible with all SVG standards: 1.1, 1.2, 2.0, Tiny.
 + 100% type safe.
 + Pure Python.
@@ -16,15 +19,17 @@ Based on [svg-xsd-schema](https://github.com/dumistoklus/svg-xsd-schema/blob/mas
 ## Installation
 
 ```bash
-python3 -m pip install --user svg.py
+python3 -m pip install --user svgink.py
 ```
 
 ## Usage
 
+<!--
 **Try svg.py online:** [svg.orsinium.dev](https://svg.orsinium.dev/).
+-->
 
 ```python
-import svg
+import svgink as svg
 canvas = svg.SVG(
     width=60,
     height=60,
@@ -42,8 +47,10 @@ print(canvas)
 
 See [examples](./examples/) for more.
 
+<!--
 ## Projects using svg.py
 
 The github topic [svg-py](https://github.com/topics/svg-py) contains some of the projects that use svg.py in one way or another. If you want your project to appear on the list, simply add `svg-py` into the list of project topics. [Here is how][add-topic].
 
 [add-topic]: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics#adding-topics-to-your-repository
+-->

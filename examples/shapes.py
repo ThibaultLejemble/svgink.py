@@ -6,7 +6,7 @@ Usage:
     python3 examples/shapes.py > examples/shapes.svg
     xdg-open examples/shapes.svg
 """
-import svg
+import svgink as svg
 
 
 def draw() -> svg.SVG:

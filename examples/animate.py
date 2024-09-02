@@ -6,7 +6,7 @@ Usage:
     python3 examples/animate.py > examples/animate.svg
     chromium examples/animate.svg
 """
-import svg
+import svgink as svg
 
 
 def draw() -> svg.SVG:

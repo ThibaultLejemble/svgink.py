@@ -1,7 +1,7 @@
 from pathlib import Path
 import pytest
 import examples
-import svg
+import svgink as svg
 
 
 @pytest.mark.parametrize('name', examples.__all__)

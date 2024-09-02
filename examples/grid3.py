@@ -1,5 +1,5 @@
 from __future__ import annotations
-import svg
+import svgink as svg
 
 
 STROKE_LEN = 10
