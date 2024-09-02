@@ -27,7 +27,9 @@ from .elements import (
     Pattern, Polygon, Polyline, RadialGradient, Rect, Script, Set, Stop, Style,
     Switch, Symbol, Text, TextPath, Title, TSpan, Use, View,
 )
-
+from .layer import (
+    Layer
+)
 
 __version__ = '1.4.3'
 __all__ = [
@@ -142,4 +144,7 @@ __all__ = [
     'Length',
     'PreserveAspectRatio',
     'ViewBoxSpec',
+
+    # Inkscape
+    'Layer'
 ]
