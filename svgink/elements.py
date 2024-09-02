@@ -104,6 +104,8 @@ class SVG(
     onscroll: Optional[str] = None
     onzoom: Optional[str] = None
 
+    xmlns__inkscape: str = 'http://www.inkscape.org/namespaces/inkscape'
+
 
 @dataclass
 class G(
