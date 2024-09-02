@@ -21,7 +21,7 @@ def draw() -> svg.SVG:
                         x=10, y=10,
                         width=30, height=30,
                         stroke="black",
-                        fill="transparent",
+                        fill="none",
                         stroke_width=5,
                     ),
                     svg.Rect(
@@ -29,7 +29,7 @@ def draw() -> svg.SVG:
                         rx=10, ry=10,
                         width=30, height=30,
                         stroke="black",
-                        fill="transparent",
+                        fill="none",
                         stroke_width=5,
                     ),
                 ]
@@ -40,14 +40,14 @@ def draw() -> svg.SVG:
                     svg.Circle(
                         cx=25, cy=75, r=20,
                         stroke="red",
-                        fill="transparent",
+                        fill="none",
                         stroke_width=5,
                     ),
                     svg.Ellipse(
                         cx=75, cy=75,
                         rx=20, ry=5,
                         stroke="red",
-                        fill="transparent",
+                        fill="none",
                         stroke_width=5,
                     ),
                 ]
@@ -64,7 +64,7 @@ def draw() -> svg.SVG:
                     125, 85, 140, 90, 135, 95, 150, 100, 145,
                 ],
                 stroke="orange",
-                fill="transparent",
+                fill="none",
                 stroke_width=5,
             ),
             svg.Layer(
@@ -75,7 +75,7 @@ def draw() -> svg.SVG:
                             50, 195, 35, 205, 40, 190, 30, 180, 45, 180,
                         ],
                         stroke="green",
-                        fill="transparent",
+                        fill="none",
                         stroke_width=5,
                     ),
                     svg.Path(
